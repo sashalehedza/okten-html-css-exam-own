@@ -120,7 +120,6 @@
     padding: 40px;
     display: flex;
     flex-direction: column;
-    gap: 30px;
     height: auto;
   }
   .footer-container {
@@ -131,5 +130,6 @@
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr;
     gap: 20px;
+    margin-bottom: 30px;
   }
 }
