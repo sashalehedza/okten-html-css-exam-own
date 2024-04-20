@@ -24,23 +24,23 @@ h4 {
 }
 h1 {
   font-size: 3.22em;
-  /*font-size: 58px;*/
+
   font-weight: 500;
   line-height: 70px;
 }
 h2 {
   font-size: 2.39em;
-  /*font-size: 43px;*/
+
   line-height: 56px;
 }
 h3 {
   font-size: 1.78em;
-  /*font-size: 32px;*/
+
   line-height: 42px;
 }
 h4 {
   font-size: 1.34em;
-  /*font-size: 24px;*/
+
   font-weight: 700;
   line-height: 29px;
 }
@@ -54,7 +54,6 @@ h4 {
 .data-container {
   width: 80vw;
   margin: 0 auto;
-  /* background-color: #ff4b32; */
 }
 
 .data-items-container {
@@ -65,9 +64,8 @@ h4 {
   align-items: center;
 }
 
-/*---------------------------Patricia-------Header-------------------------------*/
 header {
-  background-image: url('../assets/Patricia/image1.png');
+  background-image: url('../assets/header/image1.png');
   background-size: cover;
   background-position: center;
   height: auto;
@@ -144,7 +142,7 @@ nav {
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
-  line-height: 160%; /* 28.8px */
+  line-height: 160%;
 }
 
 .best-offer {
@@ -265,13 +263,12 @@ nav {
   background: #fff;
 }
 
-/*--------------------------Yulia--------Main Contacts--------------------------------*/
 .main-follow {
   width: 100vw;
   height: 64vh;
   margin: 50px 0;
   color: #ffffff;
-  background-image: url('../assets/yulia/FollowUs.png');
+  background-image: url('../assets/main-gallery/FollowUs.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -369,19 +366,19 @@ nav {
 }
 
 .item-img-1 {
-  background-image: url('../assets/sasha/item-1.jpeg');
+  background-image: url('../assets/update-news/item-1.jpeg');
   background-size: cover;
   background-position: center;
 }
 
 .item-img-2 {
-  background-image: url('../assets/sasha/item-2.jpeg');
+  background-image: url('../assets/update-news/item-2.jpeg');
   background-size: cover;
   background-position: center;
 }
 
 .item-img-3 {
-  background-image: url('../assets/sasha/item-3.jpeg');
+  background-image: url('../assets/update-news/item-3.jpeg');
   background-size: cover;
   background-position: center;
 }
@@ -397,7 +394,7 @@ nav {
 
 .item h1 {
   color: #000;
-  /*font-family: 'Josefin Sans';*/
+
   font-size: 32px;
   font-style: normal;
   font-weight: 600;
@@ -406,7 +403,7 @@ nav {
 
 .item p {
   color: #000;
-  /*font-family: 'Open Sans';*/
+
   font-size: 16px;
   font-style: normal;
   font-weight: 400;

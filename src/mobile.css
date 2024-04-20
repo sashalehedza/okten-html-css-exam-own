@@ -1,5 +1,4 @@
 @media screen and (max-width: 559px) {
-  /* Patricia */
 
   header {
     height: auto;
@@ -11,12 +10,11 @@
 
   .navigation a {
     color: #fff;
-    /* Body / Base */
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
     font-style: normal;
     font-weight: 200;
-    line-height: 120%; /* 28.8px */
+    line-height: 120%;
   }
 
   .banner-info {
@@ -31,7 +29,6 @@
     margin: 60px 0;
   }
 
-  /* Vlad */
   .best-offer {
     height: auto;
     width: 100%;
@@ -65,7 +62,7 @@
     width: 100%;
   }
 
-  /*------- Yulia -------*/
+
   body {
     font-size: 16px;
   }
@@ -91,7 +88,7 @@
     width: 100%;
     height: 100%;
   }
-  /*-------- Sasha -------- */
+
   .update-news {
     height: auto;
     width: 100%;
