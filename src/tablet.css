@@ -58,12 +58,10 @@
     grid-template-rows: 1fr 1fr 1fr;
     grid-gap: 10px;
   }
-  .main-gallery--block-photos > img {
-    width: 40vw;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-    object-position: center;
+  .main-gallery--block-photos img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
   }
 
   /*------------------------------ Sasha ----------------------------*/

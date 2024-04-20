@@ -60,13 +60,10 @@
     grid-gap: 10px;
     /*margin: 0 auto;*/
   }
-  .main-gallery--block-photos > img {
-    width: 40vw;
-    height: 100%;
-    /*width: 45vw;*/
-    object-fit: cover;
-    object-position: center;
-    /*margin: 0 auto;*/
+  .main-gallery--block-photos img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
   }
 
   /*-------- Sasha -------- */
