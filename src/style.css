@@ -24,6 +24,7 @@ body {
 .data-container {
   width: 80vw;
   margin: 0 auto;
+  /* background-color: #ff4b32; */
 }
 
 h1,
@@ -61,63 +62,67 @@ header {
   background-image: url('../assets/Patricia/image1.png');
   background-size: cover;
   background-position: center;
-  height: 72vh;
+  height: auto;
   width: 100vw;
 }
+
 nav {
-  height: 8vh;
+  height: 60px;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 10px;
+  margin-top: 20px;
   font-size: 10px;
 }
-.logo {
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+}
+
+.navigation .logo {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.navigation {
-  list-style-position: outside;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 50%;
+
+.navigation .logo img {
+  margin-bottom: 10px;
 }
-.navigation li {
-  list-style: none;
+
+.navigation a {
+  color: #fff;
+  /* Body / Base */
+  font-family: 'Open Sans';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 28.8px */
 }
+
 nav a {
   text-decoration: none;
 }
 nav img {
   height: 6vh;
 }
-.navigation li > .nav4,
-.nav5,
-.nav6,
-.nav7 {
-  color: white;
-}
-.banner_title,
-.banner_info,
-.banner_button {
-  color: white;
-  /*font-size: 15px;*/
-  margin-left: 30px;
-}
+
 .banner-info {
   color: #fff;
-  width: 40vw;
+  width: 50%;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: start;
   flex-direction: column;
   gap: 40px;
-  margin-left: 30px;
+  margin: 60px 0;
 }
+
 .banner-info p {
   color: #fff;
   font-family: 'Josefin Sans', sans-serif;
@@ -128,12 +133,18 @@ nav img {
   margin-top: 10px;
 }
 .banner-info button {
-  background-color: #ff4b32;
-  color: #fff;
+  display: inline-flex;
+  padding: 16px 35px;
+  align-items: flex-start;
+  gap: 10px;
   border-radius: 5px;
-  margin-top: 10px;
-  font-size: 10px;
-  padding: 5px 15px;
+  background: #ff4b32;
+  color: #fff;
+  font-family: 'Open Sans';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%; /* 28.8px */
 }
 
 /* Vlad */
@@ -520,7 +531,6 @@ nav img {
   font-style: normal;
   font-weight: 700;
   line-height: 130%;
-  margin-top: 20px;
 }
 
 .footer-container div {
