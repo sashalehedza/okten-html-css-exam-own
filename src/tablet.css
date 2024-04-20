@@ -1,0 +1,112 @@
+@media screen and (min-width: 560px) and (max-width: 1023px) {
+  /*--------------------------- Patricia-------------------------- */
+  header {
+    height: auto;
+    padding-bottom: 30px;
+  }
+  /*---------------------------- Vlad -----------------------------*/
+
+  .best-offer {
+    height: auto;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .best-offer-items {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .best-offer-items .item {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: start;
+  }
+
+  .best-offer-info-item-description {
+    width: 100%;
+  }
+
+  /*--------------------------- Yulia -----------------------------*/
+  body {
+    font-size: 16px;
+  }
+  .main-gallery {
+    margin: 50px auto;
+    padding: 50px 0;
+    width: 100vw;
+    height: auto;
+  }
+  .main-gallery--description {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .main-gallery--description > p {
+    display: inline-block;
+  }
+  .main-gallery--block-photos {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px;
+  }
+  .main-gallery--block-photos > img {
+    width: 40vw;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    object-position: center;
+  }
+
+  /*------------------------------ Sasha ----------------------------*/
+  .items-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  .items-container .item {
+    height: 300px;
+    width: 100%;
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: 40px 15px 136px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+  }
+  .update-news {
+    height: auto;
+    width: 100%;
+  }
+  .footer {
+    width: 100%;
+    background: #0d0402;
+    color: white;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: auto;
+  }
+  .footer-container {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-areas:
+      'banner categories'
+      'information follow-us';
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+}

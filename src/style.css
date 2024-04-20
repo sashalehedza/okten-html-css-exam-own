@@ -1,0 +1,544 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: 'wdth' 100;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29px;
+  scroll-behavior: smooth;
+}
+
+.container {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.data-container {
+  width: 80vw;
+  background-color: rgb(77, 43, 201);
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+}
+h1 {
+  font-size: 3.22em;
+  /*font-size: 58px;*/
+  font-weight: 500;
+  line-height: 70px;
+}
+h2 {
+  font-size: 2.39em;
+  /*font-size: 43px;*/
+  line-height: 56px;
+}
+h3 {
+  font-size: 1.78em;
+  /*font-size: 32px;*/
+  line-height: 42px;
+}
+h4 {
+  font-size: 1.34em;
+  /*font-size: 24px;*/
+  font-weight: 700;
+  line-height: 29px;
+}
+
+/*---------------------------Patricia-------Header-------------------------------*/
+header {
+  background-image: url('../assets/Patricia/image1.png');
+  background-size: cover;
+  background-position: center;
+  height: 72vh;
+  width: 100vw;
+}
+nav {
+  height: 8vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-size: 10px;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navigation {
+  list-style-position: outside;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
+.navigation li {
+  list-style: none;
+}
+nav a {
+  text-decoration: none;
+}
+nav img {
+  height: 6vh;
+}
+.navigation li > .nav4,
+.nav5,
+.nav6,
+.nav7 {
+  color: white;
+}
+.banner_title,
+.banner_info,
+.banner_button {
+  color: white;
+  /*font-size: 15px;*/
+  margin-left: 30px;
+}
+.banner-info {
+  color: #fff;
+  width: 40vw;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  gap: 40px;
+  margin-left: 30px;
+}
+.banner-info p {
+  color: #fff;
+  font-family: 'Josefin Sans', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.banner-info button {
+  background-color: #ff4b32;
+  color: #fff;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-size: 10px;
+  padding: 5px 15px;
+}
+
+/* Vlad */
+
+.best-offer {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: auto;
+}
+
+.best-offer-info {
+  width: 100%;
+  /*border: 2px solid gray;*/
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.best-offer-info-title {
+  color: #000;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 43px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%; /* 55.9px */
+  letter-spacing: 6px;
+  width: 100%;
+}
+
+.best-offer-info-item-description {
+  color: #000;
+  /* Body / Base */
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 28.8px */
+  margin-top: 20px;
+  width: 506px;
+}
+
+.best-offer-items {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.best-offer-items .item {
+  width: 100%;
+  height: 442px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  text-align: start;
+}
+
+.best-offer-img {
+  width: 100%;
+  height: 165px;
+}
+
+.best-offer-1-2-text-1 {
+  color: #0c0d0c;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 36px */
+  margin-top: 35px;
+}
+
+.best-offer-1-2-text-2 {
+  color: #000;
+  /* Heading / Base */
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%; /* 41.6px */
+  margin-top: 10px;
+}
+
+/*---------------------------Yulia-------Main Our Gallery------------------------*/
+.main-gallery {
+  width: 100vw;
+  height: 100vh;
+  display: contents;
+}
+
+.main-gallery--container {
+  width: 80vw;
+  /*height: 60%;*/
+  margin: 0 auto;
+
+  /*padding-top: 100px;*/
+  /*margin-top: 150px;*/
+  /*text-align: center;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-gallery--description {
+  width: 60%;
+  /*50% ;*/
+  margin-bottom: 40px;
+  text-align: center;
+}
+.main-gallery--description > h2 {
+  /*margin-bottom: 20px;*/
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+}
+.main-gallery--description > p {
+  padding: 20px;
+}
+.main-gallery--block {
+  display: grid;
+  height: 60%;
+}
+
+.main-gallery--block-photos {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 30px;
+}
+
+.main-gallery--block-photos img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.main-gallery button {
+  color: #ff4b32;
+  border: none;
+  background: unset;
+  margin-bottom: 20px;
+  text-align: center;
+  padding-bottom: 20px;
+  cursor: pointer;
+}
+
+.main-gallery button:hover {
+  color: rgba(103, 63, 52, 0.77);
+  border: none;
+  background: #fff;
+}
+
+/*--------------------------Yulia--------Main Contacts--------------------------------*/
+.main-follow {
+  width: 100vw;
+  height: 64vh;
+  margin: 50px 0;
+  color: #ffffff;
+  background-image: url('../assets/yulia/FollowUs.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-width: 100%;
+  /*height: 100%;*/
+  /*  border: 2px solid gray;*/
+}
+.main-follow > img {
+  width: 100%;
+}
+.main-follow--block {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.main-follow--block > h2 {
+  text-align: center;
+}
+.main-follow--block > a {
+  color: #ff4b32;
+  text-decoration: none;
+  cursor: pointer;
+}
+.main-follow--contacts {
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-follow--social_links a {
+  padding: 10px;
+  cursor: pointer;
+}
+.main-follow--contacts img {
+  vertical-align: sub;
+  padding-bottom: 3px;
+  padding-right: 6px;
+  cursor: pointer;
+}
+.main-follow--contacts a {
+  color: #fff;
+}
+
+/*---------------------------------- Sasha ---------------------------------*/
+.update-news-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.title {
+  color: #000;
+  text-align: center;
+  /*font-family: 'Josefin Sans';*/
+  font-size: 43px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  color: #000;
+  text-align: center;
+  /*font-family: 'Open Sans';*/
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  margin-bottom: 30px;
+}
+
+.items-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.items-container .item {
+  height: 500px;
+  width: 100%;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 40px 15px 136px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+}
+
+.item-img {
+  height: 300px;
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+
+.item-img-1 {
+  background-image: url('../assets/sasha/item-1.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+.item-img-2 {
+  background-image: url('../assets/sasha/item-2.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+.item-img-3 {
+  background-image: url('../assets/sasha/item-3.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+.item-info {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 0 0 20px 20px;
+  padding: 20px;
+}
+
+.item h1 {
+  color: #000;
+  /*font-family: 'Josefin Sans';*/
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+}
+
+.item p {
+  color: #000;
+  /*font-family: 'Open Sans';*/
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.item a {
+  color: #ff4b32;
+  /*font-family: 'Open Sans';*/
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%;
+  text-decoration: none;
+}
+
+.footer {
+  width: 100%;
+  background: #0d0402;
+  color: white;
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+
+.footer-container {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-areas: 'banner categories information follow-us';
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.footer-banner {
+  grid-area: banner;
+}
+.footer-categories {
+  grid-area: categories;
+}
+.footer-information {
+  grid-area: information;
+}
+.footer-follow-us {
+  grid-area: follow-us;
+}
+
+.footer-container div h1 {
+  color: #fff;
+  /*font-family: 'Open Sans';*/
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.footer-banner .footer-centered-title {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: row;
+  gap: 5px;
+}
+
+#footer-banner-title {
+  color: #ff4b32;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  margin-top: 20px;
+}
+
+.footer-container div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer-container div p {
+  color: #fff;
+  /*font-family: 'Open Sans';*/
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  list-style-type: none;
+}
+
+.footer-copyright {
+  color: #fff;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 160%;
+}

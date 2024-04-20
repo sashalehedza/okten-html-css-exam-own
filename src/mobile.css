@@ -1,0 +1,113 @@
+@media screen and (max-width: 559px) {
+  /* Patricia */
+
+  header {
+    height: auto;
+    padding-bottom: 30px;
+  }
+
+  /* Vlad */
+  .best-offer {
+    height: auto;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .best-offer-items {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .best-offer-items .item {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: start;
+  }
+
+  .best-offer-info-item-description {
+    width: 100%;
+  }
+
+  /*------- Yulia -------*/
+  body {
+    font-size: 16px;
+  }
+  .main-gallery {
+    width: 100%;
+    height: auto;
+  }
+  .main-gallery--description {
+    width: 100%;
+    margin-bottom: 20px;
+    line-height: normal;
+  }
+  .main-gallery--description > p {
+    display: none;
+  }
+  .main-gallery--block-photos {
+    /*width: 90%;*/
+    /*height: 90%;*/
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    /*margin: 0 auto;*/
+  }
+  .main-gallery--block-photos > img {
+    width: 40vw;
+    height: 100%;
+    /*width: 45vw;*/
+    object-fit: cover;
+    object-position: center;
+    /*margin: 0 auto;*/
+  }
+
+  /*-------- Sasha -------- */
+  .update-news {
+    height: auto;
+    width: 100%;
+  }
+  .items-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .items-container .item {
+    height: 400px;
+    width: 100%;
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: 40px 15px 136px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+  }
+  .footer {
+    width: 100%;
+    background: #0d0402;
+    color: white;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: auto;
+  }
+  .footer-container {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-areas: 'banner' 'categories' 'information' 'follow-us';
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
