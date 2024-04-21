@@ -1,4 +1,7 @@
 @media screen and (min-width: 560px) and (max-width: 1023px) {
+  body {
+    font-size: 16px;
+  }
 
   header {
     height: auto;
@@ -14,7 +17,7 @@
     font-size: 12px;
     font-style: normal;
     font-weight: 200;
-    line-height: 120%; /* 28.8px */
+    line-height: 120%;
   }
 
   .banner-info {
@@ -61,22 +64,22 @@
     width: 100%;
   }
 
-  body {
-    font-size: 16px;
-  }
   .main-gallery {
     margin: 50px auto;
     padding: 50px 0;
     width: 100vw;
     height: auto;
   }
+
   .main-gallery--description {
     width: 100%;
     margin-bottom: 20px;
   }
+
   .main-gallery--description > p {
     display: inline-block;
   }
+
   .main-gallery--block-photos {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -87,6 +90,7 @@
     width: 100%;
     height: 100%;
   }
+
   .items-container {
     width: 100%;
     display: flex;
@@ -95,6 +99,7 @@
     align-items: center;
     gap: 30px;
   }
+
   .items-container .item {
     height: 300px;
     width: 100%;
@@ -104,10 +109,12 @@
     display: flex;
     flex-direction: column;
   }
+
   .update-news {
     height: auto;
     width: 100%;
   }
+
   .footer {
     width: 100%;
     background: #0d0402;
@@ -118,6 +125,7 @@
     gap: 30px;
     height: auto;
   }
+
   .footer-container {
     height: 100%;
     width: 100%;
