@@ -230,6 +230,7 @@ nav {
 .main-gallery--block {
   display: grid;
   gap: 50px;
+  width: 100%;
 }
 
 .main-gallery--block-photos {
