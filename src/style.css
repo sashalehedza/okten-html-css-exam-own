@@ -166,14 +166,6 @@ nav {
   align-items: start;
 }
 
-.best-offer--item-info {
-  flex-grow: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  border-radius: 0 0 20px 20px;
-}
-
 .best-offer-info-title {
   color: #000;
   font-family: 'Josefin Sans', sans-serif;
@@ -215,9 +207,17 @@ nav {
   text-align: start;
 }
 
-.best-offer-img {
+/* .best-offer-img {
   width: 100%;
   height: 165px;
+} */
+
+.best-offer--item-info {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 0 0 20px 20px;
 }
 
 .main-gallery--description {
